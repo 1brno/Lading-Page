@@ -1,0 +1,38 @@
+@charset "UTF-8";   
+@import url('bg.css');
+@import url('header.css');
+@import url('main.css');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: rgba(255, 255, 255, 0.774);
+    --blue:#0d4671;
+    --red:#C70E20;
+}
+
+body button, a , p {
+    color: var(--text);
+    font: 400 1rem 'Kanit', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height:100vh ;
+}
