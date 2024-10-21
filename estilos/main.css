@@ -11,7 +11,10 @@ main{
     width: 100%;
     max-width: 400px;
 }
-
+.info > img.logo-vw{
+    max-width: 500px;
+    
+    }
 .info p {
     font: 18px;
     margin: 20px 0 20px;
