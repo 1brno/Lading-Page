@@ -46,8 +46,10 @@
     }
   
     .info > img.logo-vw{
-        max-width: 300px;
-        margin-left: -50px;
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto; 
+    
     }
     .info div {
         flex-direction: column;
