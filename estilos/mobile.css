@@ -1,0 +1,72 @@
+/* Estilos gerais para mobile */
+@media (max-width: 768px) {
+  
+    header {
+        flex-direction: row ;
+        align-items: center;
+        padding-top: 20px;
+        column-gap: 10px;
+    }
+  
+    header img {
+        margin: auto;
+        width: 50px;
+    }
+  
+    .nav {
+        flex-direction: row;
+        row-gap: 10px;
+        margin: auto;
+        column-gap: 3;
+        align-items: flex-start;
+    }
+  
+    .nav_link {
+        font-size: 16px;
+    }
+  
+   
+    .redes-sociais svg {
+        display: none;
+        width: 20px;
+        height: 20px;
+    }
+  
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+  
+    .info {
+        margin-top: 130px;
+        max-width: 100%;
+    }
+  
+    .info div {
+        flex-direction: column;
+        row-gap: 15px;
+        column-gap: 0;
+    }
+  
+    .costas {
+        margin-top: -150px;
+        margin-left: 0;
+        width: 800px;
+    }
+  
+    .info div a, .info div button {
+        width: 100%;
+        padding: 8px 0;
+        font-size: 13px;
+    }
+  
+    .info p {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+  
+  }
+  
